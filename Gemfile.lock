@@ -1,29 +1,24 @@
 GIT
   remote: git@github.com:ryanmark/s3deploy-ruby.git
-  revision: bd767bde2879ef33a5ee3ff708d2265b174083cc
+  revision: fec7fdfd3bcc37c5ac194fb77a1b09a09b9defe6
   specs:
-    s3deploy (0.1.1)
-      aws-sdk
+    s3deploy (0.1.2)
+      aws-sdk (~> 1.57)
       mime-types
 
 GEM
   remote: http://rubygems.org/
   specs:
-    aws-sdk (2.0.27)
-      aws-sdk-resources (= 2.0.27)
-    aws-sdk-core (2.0.27)
-      builder (~> 3.0)
-      jmespath (~> 1.0)
-      multi_json (~> 1.0)
-      multi_xml (~> 0.5)
-    aws-sdk-resources (2.0.27)
-      aws-sdk-core (= 2.0.27)
-    builder (3.2.2)
-    jmespath (1.0.2)
-      multi_json (~> 1.0)
+    aws-sdk (1.63.0)
+      aws-sdk-v1 (= 1.63.0)
+    aws-sdk-v1 (1.63.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+    json (1.8.2)
     mime-types (2.4.3)
-    multi_json (1.10.1)
-    multi_xml (0.5.5)
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
     rake (10.3.2)
 
 PLATFORMS
